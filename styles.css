@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, pink, purple);
+    color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 2em;
+}
+
+/* Insights Section */
+.insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.insights article {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.insights article img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+/* Forms */
+textarea, input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
